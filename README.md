@@ -46,6 +46,25 @@ This demo shows:
 - Preparing datasets that can directly train models (e.g., YOLOv8).
 
 ---
+## 🎨 Pixel-Perfect Segmentation
+
+In addition to bounding boxes, I also performed **pixel-accurate polygon segmentation** of retail racks.
+This provides much higher quality annotations compared to simple bounding boxes.
+
+### Why Segmentation?
+- Bounding boxes = rough outlines
+- Segmentation = exact object boundaries
+- Used in **self-driving cars, medical imaging, retail shelf analysis**
+
+### Example
+Below is an example of a rack annotated with segmentation in CVAT:
+
+| Original Image | Segmentation Mask |
+|----------------|-------------------|
+| ![Original](samples/raw_rack01.png) | ![Segmented](samples/segmented_rack01.png) |
+| ![Original](samples/raw_rack02.png) | ![Segmented](samples/segmented_rack02.png) |
+
+Segmentation was exported in **COCO format** (`segmentation` field), making it directly usable for training instance segmentation models (e.g., Mask R-CNN, YOLOv8-seg).
 
 ## 🔮 Next Steps
 - Add **video annotation demo** (multi-frame bounding boxes).
