@@ -8,7 +8,7 @@ I annotated a set of retail shelf images and exported them into **YOLOv8** and *
 ## 📌 Project Overview
 - **Task:** Object detection dataset creation
 - **Tool:** [CVAT](https://cvat.ai/)
-- **Images Labeled:** 50+ retail shelf screenshots
+- **Images Labeled:** 350+ retail shelf screenshots
 - **Classes:**
   - `rack`
   - `primary shelf`
