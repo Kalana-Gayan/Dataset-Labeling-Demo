@@ -57,15 +57,15 @@ Below is an example of a rack annotated with segmentation in CVAT:
 | ![Original](samples/raw_rack02.png) | ![Segmented](samples/segmented_rack02.png) |
 
 Segmentation was exported in **CVAT for images 1.1** (`segmentation` field), making it directly usable for training instance segmentation models (e.g., Mask R-CNN, YOLOv8-seg).
----
 
+---
 ## 🚀 Why This Project?
 Creating datasets is a **core skill** in ML/AI workflows.
 This demo shows:
 - Using professional annotation tools (CVAT).
 - Exporting in multiple formats for flexibility.
 - Preparing datasets that can directly train models (e.g., YOLOv8).
-
+---
 ## 🔮 Next Steps
 - Add **video annotation demo** (multi-frame bounding boxes).
 - Try **Label Studio** for audio/text labeling.
