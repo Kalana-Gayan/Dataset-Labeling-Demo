@@ -26,9 +26,9 @@ I annotated a set of retail shelf images and exported them into **YOLOv8** and *
 
 ## 📂 Repo Structure
 - /images        → Sample raw images
-- /labels        → CVAT project files (optional)
-  - /exports/annotations_yolo/ → YOLO format annotations (.txt)
-  - /exports/annotations_coco/ → COCO format annotations (.json)
+- /labels        → CVAT project files
+- /exports/annotations_yolo/ → YOLO format annotations (.txt)
+- /exports/annotations_coco/ → COCO format annotations (.json)
      
 
 ---
