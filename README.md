@@ -29,7 +29,12 @@ I annotated a set of retail shelf images and exported them into **YOLOv8** and *
 - /labels        → CVAT project files
 - /exports/annotations_yolo/ → YOLO format annotations (.txt)
 - /exports/annotations_coco/ → COCO format annotations (.json)
-     
+---     
+### Example Labeled Images
+Below are a few screenshots of the annotations created in CVAT:
+
+![Labeled Shelf Example](samples/labeled_001.jpg)
+![Another Example](samples/labeled_002.jpg)
 
 ---
 
